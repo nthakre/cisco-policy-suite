@@ -3,7 +3,7 @@
 ##########################################################################
 # Name: show_peers.sh
 # Author: Yousif.Aluzri@Cisco.COM
-# Designed by: Rohit Jain (rohitja@Cisco.COM), Yousif.Aluzri@Cisco.COM
+# Designed by: Yousif.Aluzri@Cisco.COM, Rohit Jain (rohitja@Cisco.COM)
 # Version: 1.0
 # Date: Thu May  7 21:35:00 PDT 2015
 # File Mode: 555 
@@ -32,7 +32,6 @@
 # Version 2.0 (Tues October 3 20:17:00 MST 2017)
 #  -Author: lelee2@cisco.com
 #  -Updated to include lb03 and lb04
-#  -Replace Sy' with Sh 
 #  -Removed Sd interface
 #  -Modified verbose mode to display the diameter network's IPv6 address
 #
@@ -64,7 +63,6 @@
 #  -Updated formatting of SUMMARY table (less clutter).
 #  -Moved SUMMARY table to its own function.
 #  -Added support of 3GPP Sy flag.
-#  -Differentiated --sy and --syp input flags.
 #  -Peppered a bit of performance tweaks, here and there.
 #  -Bug Fix: Sorting of lb output is now
 #   alphabetical.
